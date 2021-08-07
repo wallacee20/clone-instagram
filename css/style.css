@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/*  */
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    
+    
+}
+
+  
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+/* class  */
+.insta-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 110vh;
+    margin-left: 2rem;
+    border-radius: 4%;
+    margin-block-start: 5.6rem;
+    
+    
+}
+
+.insta-phone img {
+    height: 100%;
+}
+
+/* class */ 
+.instagram-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 40rem;
+    margin-right: 5rem;
+    
+}
+ /*class  */
+.grupo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #ffffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    margin-top: 1rem;
+    
+}
+
+/* class  */
+.grupo:nth-child(1) {
+    min-height: 19rem;
+}
+/* class  */
+.instagram-logo {
+    height: 3rem;
+}
+
+/* arredondando a foto do perfil  */
+.my-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.my-perfil img {
+
+    height: 6rem;
+    
+}
+
+.enter-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0095f6;
+    color: #ffffffff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+.remove-login {
+    color: #0095f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nao-conta {
+    color: rgb(160, 160, 160);
+}
+
+.text-blue {
+    color: #0095f6;
+}
+.baixe-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+.get-app {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+}
+
+.botao-apple {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.apple img {
+    height: 5rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .body {
+        background-color: #ffffffff;
+    }
+    .instagram-wrapper{
+        width: 90%;
+    }
+    .insta-phone {
+        display: none;
+    }
+    .instagram-logo {
+        width: 100%;
+    }
+}
